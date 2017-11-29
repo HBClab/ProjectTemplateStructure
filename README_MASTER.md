@@ -37,7 +37,7 @@ However, significant departures could occur if the directory name becomes a part
 The default naming scheme for files should use [snake_case](https://en.wikipedia.org/wiki/Snake_case). snake_case gives us the lattitude to stylistically timestamp files, yyyymmdd_file_name.txt, or fork files to do something experimental, jdkent_file_name.txt. In general, all alpha characters should be lowercase (e.g. MRI becomes mri, MNI becomes mni, etc.), this will promote consistency across file names and make it easier to find files.
 
 ### File Formats
-Try to avoid using propietary formats as a method of data storage, stick with text (.txt), the CSV family (.csv,.tsv,.ssv, etc), and markdown (.md).
+Try to avoid using proprietary formats as a method of data storage, stick with text (.txt), the CSV family (.csv,.tsv,.ssv, etc), and markdown (.md).
 
 ### MetaData (Documentation)
 There are potentially three files that can help provide information about the data in the current directory, and they are README, CHANGES, and NOTES. README is the most important and can (if needed) subsume the roles of CHANGES and NOTES.
