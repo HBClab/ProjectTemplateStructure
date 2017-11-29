@@ -31,10 +31,10 @@ However, significant departures could occur if the directory name becomes a part
 1. Compact
 2. distinguishes directories from filenames
 
-**NOTE:**: avoid abbreviations if possible, but if the abbreviation is the most sensical name, use all uppercase (e.g. MRI, FMRI). Naming is a balance between length and clarity.
+**NOTE:** avoid abbreviations if possible, but if the abbreviation is the most sensical name, use all uppercase (e.g. MRI, FMRI). Naming is a balance between length and clarity.
 
 #### file_names
-The default naming scheme for files should use [snake_case](https://en.wikipedia.org/wiki/Snake_case). snake_case gives us the lattitude to stylistically timestamp files, yyyymmdd_file_name.txt, or fork files to do something experimental, jdkent_file_name.txt. In general, all alpha characters should be lowercase (e.g. MRI becomes mri, MNI becomes mni, etc.), this will promote consistancy across file names and make it easier to find files.
+The default naming scheme for files should use [snake_case](https://en.wikipedia.org/wiki/Snake_case). snake_case gives us the lattitude to stylistically timestamp files, yyyymmdd_file_name.txt, or fork files to do something experimental, jdkent_file_name.txt. In general, all alpha characters should be lowercase (e.g. MRI becomes mri, MNI becomes mni, etc.), this will promote consistency across file names and make it easier to find files.
 
 ### File Formats
 Try to avoid using propietary formats as a method of data storage, stick with text (.txt), the CSV family (.csv,.tsv,.ssv, etc), and markdown (.md).
