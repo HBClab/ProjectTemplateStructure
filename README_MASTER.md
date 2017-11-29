@@ -9,8 +9,8 @@ A template for guiding the creation of new projects
 - ProjectName = [your project name]
 
 ## Scope of this Template
-- This template will cover the directories to store data and how to store metadata (generally).
-  This template will **NOT** cover how the actual data should be stored.
+- This template will cover naming conventions and structure of directories, files, and metadata.
+  This template will **NOT** cover how the actual data should be stored. (e.g. what should I name my columns in a csv?)
 
 ## So you want to manage data?
 ### resources
