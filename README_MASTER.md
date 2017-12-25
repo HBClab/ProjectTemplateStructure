@@ -5,6 +5,9 @@ A template for guiding the creation of new projects
 - [MRI layout](http://nikola.me/folder_structure.html)
 - [Code layout](https://drivendata.github.io/cookiecutter-data-science/)
 
+## derivative of the below structure
+![example img](http://nikola.me/assets/img/folder_structure.png)
+
 ## Variables
 - ProjectName = [your project name]
 
