@@ -28,8 +28,10 @@ Unless agreed upon for a specific context the following characters are banned fo
 ```
 [space][tab],/?'":;|\=+()[]()*&^%$#@!`~
 ```
-#### DirectoryNames
+#### directoryNames
 The default naming scheme for directories (i.e. folders) should use [CamelCase](https://en.wikipedia.org/wiki/Camel_case).
+More Specifically, the one hump camelCase where the first word is lowercase, but the rest are uppercase (if they exist).
+So if the directory name is only one word, it will be all lowercase.
 However, significant departures could occur if the directory name becomes a part of the file name (see [BIDS](http://bids.neuroimaging.io/bids_spec1.0.2.pdf)). CamelCase is more compact than [snake_case](https://en.wikipedia.org/wiki/Snake_case), and we generally don't need the extra stylized notation (version control, date stamping) that looks better in snake_case. In short, the justification for CamelCase to name directories is two-fold:
 1. Compact
 2. distinguishes directories from filenames
@@ -48,4 +50,3 @@ There are potentially three files that can help provide information about the da
 - README: This file describes the content and purpose of the directory, potentially also includes authors and contact information
 - CHANGES: This file describes the changes that have occured to the contents of the directory, and uses a [versioning system](http://search.cpan.org/~haarg/CPAN-Changes-0.400002/lib/CPAN/Changes/Spec.pod) to keep track of the changes
 - NOTES: This file describes permenant issues with the contents of the directory, or pieces of data that cannot be fixed.
-
