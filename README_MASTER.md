@@ -20,13 +20,13 @@ A template for guiding the creation of new projects
 - <sup>[1]</sup>[isacommons](http://www.isacommons.org/index.html)
 - <sup>[2]</sup>[axiomdatascience](http://www.axiomdatascience.com/best-practices/index.html#)
 
-### Standards for DirectoryNames and file_names
+### Standards for directoryNames and file_names
 A standard rule that applies to both directories and file names is to only use alphanumeric characters (and underscore) to name directories and files.
 If you have a motivated reason you can include periods [.] and dashes [-], but by default do not include these in your file names (excluding the period the extension uses (e.g. .txt, .csv, .tsv, etc.)
 
 Unless agreed upon for a specific context the following characters are banned for naming directories or files
 ```
-[space][tab],/?'":;|\=+()[]()*&^%$#@!`~
+[space][tab],/?'":;|\=+()[]{}*&^%$#@!`~
 ```
 #### directoryNames
 The default naming scheme for directories (i.e. folders) should use [CamelCase](https://en.wikipedia.org/wiki/Camel_case).
@@ -44,7 +44,7 @@ The default naming scheme for files should use [snake_case](https://en.wikipedia
 ### File Formats
 Try to avoid using proprietary formats as a method of data storage, stick with text (.txt), the CSV family (.csv,.tsv,.ssv, etc), and markdown (.md).
 
-### MetaData (Documentation)
+### Metadata (Documentation)
 There are potentially three files that can help provide information about the data in the current directory, and they are README, CHANGES, and NOTES. README is the most important and can (if needed) subsume the roles of CHANGES and NOTES.
 
 - README: This file describes the content and purpose of the directory, potentially also includes authors and contact information
