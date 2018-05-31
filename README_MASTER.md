@@ -4,6 +4,7 @@ A template for guiding the creation of new projects
 ## Inspiration
 - [MRI layout](http://nikola.me/folder_structure.html)
 - [Code layout](https://drivendata.github.io/cookiecutter-data-science/)
+- [File Naming](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf)
 
 ## derivative of the below structure
 ![example img](http://nikola.me/assets/img/folder_structure.png)
